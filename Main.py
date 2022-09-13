@@ -2,11 +2,11 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
-  for i in range(len(array)):
+  for i in range(size):
     
     min = i
     
-    for j in range(1, len(array)):
+    for j in range(i+1, size):
       
       if array[min] > array[j]:
         
