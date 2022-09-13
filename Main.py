@@ -2,7 +2,7 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
-  for i in range(len(array):
+  for i in range(len(array)):
     
     min = i
     
