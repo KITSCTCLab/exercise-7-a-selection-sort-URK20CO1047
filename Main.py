@@ -2,6 +2,20 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
+  for i in range(len(data)):
+    
+    min = i
+    
+    for j in range(1, len(data)):
+      
+      if data[min] > data[j]:
+        
+        min = j
+      
+    temp = data[min]
+    data[min] = data[i]
+    data[i] = temp
+  
 
 # Do not change the following code
 input_data = input()
